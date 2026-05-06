@@ -70,9 +70,9 @@ Test Plan
 **Purpose:** Prepare test data
 
 ### Configuration:
-- Threads: 5–10  
-- Ramp-up: 5–10 sec  
-- Loop Count: 10–20  
+- Threads: 100  
+- Ramp-up: 60 sec  
+- Loop Count: 10  
 
 ### Tasks:
 - Register users  
@@ -122,9 +122,10 @@ User200┘
 
 
 ### Configuration:
-- Users: 200–600  
-- Ramp-up: 5–10 sec  
-- Loop Count: 1  
+- Users: 600  
+- Ramp-up: 20 sec
+- Ramp-up Steps Count: 5
+- Hold Target Rate Time(sec): 500
 
 ### Validations:
 - No duplicate registrations  
@@ -145,9 +146,9 @@ User4 → Event 104
 
 
 ### Configuration:
-- Users: 200  
-- Ramp-up: 120–180 sec  
-- Loop Count: 1–2  
+- Users: 400  
+- Ramp-up: 120 sec  
+- Loop Count: 1  
 
 ### Validations:
 - Stable response time  
