@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Event Registration,600,15234,165,65230,12458.73,16.667%,16.89342,8.21,8.56,498.2
+TOTAL,600,15234,165,65230,12458.73,16.667%,16.89342,8.21,8.56,498.2
